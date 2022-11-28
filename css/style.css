@@ -96,3 +96,21 @@ h1 {
 .riga1 {
   background-color: #B1E5F2 ;
 }
+
+footer{
+  margin-top: 20px;
+}
+
+.immagine-footer {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.testo-immagine-footer{
+  position: relative;
+  bottom: 130px;
+  left: 15px;
+  color: white;
+  font-weight: bold;
+}
