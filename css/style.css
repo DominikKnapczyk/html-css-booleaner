@@ -76,3 +76,23 @@ h1 {
   margin-top: 20px;
   margin-left: 15px;
 }
+
+.tabella{
+  width: 1050px;
+  border-collapse: collapse;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.ultima{
+  width: 50%;
+}
+
+.riga {
+  background-color: #20A9E5;
+  color: white;
+}
+
+.riga1 {
+  background-color: #B1E5F2 ;
+}
