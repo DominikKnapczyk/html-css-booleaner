@@ -20,6 +20,10 @@ header {
   width: 300px;
 }
 
+main {
+  width: 1050px;
+}
+
 .titoli {
   font-family: 'Playfair Display', serif;;
 }
@@ -51,10 +55,24 @@ h1 {
 
 .immagini {
   margin-top: 20px;
+  margin-left: 5px;
 }
 
 .descrizione-foto {
   font-size: 12px;
-
+  margin-left: 5px;
 }
 
+.testo {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.evidenziato2 {
+  background-color: yellow;
+}
+
+.testo2{
+  margin-top: 20px;
+  margin-left: 15px;
+}
