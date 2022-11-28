@@ -1,20 +1,37 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Playfair Display', serif;
 }
-
 
 header {
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png);
   text-align: left;
   height: 170px;
-
- 
-
 }
 
 .logo {
   margin-top: 90px;
   width: 300px;
 }
+
+h1 {
+  font-size: 50px;
+}
+
+.autore {
+ color: #8E8E8E;
+ font-weight: bold;
+ font-size: 18px;
+}
+
+.data {
+  color: #8E8E8E;
+  font-size: 18px;
+}
+
+.evidenziato {
+  color: #24AAE5;
+}
+
