@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #4EA0FF;
+  background-image: url(../img/pattern.png);
+  text-align: left;
+  height: 170px;
+
+ 
+
+}
+
+.logo {
+  margin-top: 90px;
+  width: 300px;
+}
