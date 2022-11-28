@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.contenitore {
+
 }
 
 header {
@@ -16,22 +20,41 @@ header {
   width: 300px;
 }
 
+.titoli {
+  font-family: 'Playfair Display', serif;;
+}
+
 h1 {
-  font-size: 50px;
+  font-size: 40px;
+  max-width: 1000px;
+  margin-left: 5px;
 }
 
 .autore {
  color: #8E8E8E;
  font-weight: bold;
- font-size: 18px;
+ font-size: 20px;
+ margin-left: 5px;
+
 }
 
 .data {
   color: #8E8E8E;
-  font-size: 18px;
+  font-size: 14px;
+  margin-left: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .evidenziato {
   color: #24AAE5;
+}
+
+.immagini {
+  margin-top: 20px;
+}
+
+.descrizione-foto {
+  font-size: 12px;
+
 }
 
