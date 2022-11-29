@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,36 +15,47 @@
 </head>
 
 <body>
-  <div class="contenitore">
+  
     <!-- HEADER -->
-    <header>
-      <img class="logo" src="img/logo.svg" alt="Logo booleaner">
-    </header>
+  <header>
+    <div class="contenitore">
+      <img id="logo" src="./img/logo.svg" alt="Logo booleaner">
+    </div>
+  </header>
 
+  
+  <div class="contenitore"> 
+    
     <!-- MAIN -->
     <main>
+      
       <!-- TITOLO -->
       <section class="titoli">
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <span class="autore">Scrito da <span class="evidenziato">The Booleaner</span></span>
+        
+        <address>
+        <author class="autore">Scrito da <a href="#" class="testo-colorato">The Booleaner</a></author>
         <br />
-        <span class="data">il 10/10/2020</span>
+        <time datetime="2020/10/10" class="data">il 10/10/2020</span>
+        </address>
       </section>
 
       <!-- IMMAGINI -->
-      <section class="immagini">
+      <figure class="immagini">
         <img src="./img/tim-1.jpg" alt="tim 1">
         <img src="./img/tim-2.jpg" alt="tim 2">
-        <p class="descrizione-foto">1st Photo: John S. and James L.Knight Foundation, by scott Herichsen <br />
+
+        <figcaption class="descrizione-foto">1st Photo: John S. and James L.Knight Foundation, by scott Herichsen 
+        <br />
         2nd Photo: Wikimedia, By Paul Clarke
-        </p>
-      </section>
+        </figcaption>
+      </figure>
 
       <!-- TESTO -->
       <section class="testo">
-        <p class="testo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus harum officiis ipsum repellendus. Labore incidunt amet minima non. Optio iste reiciendis recusandae ipsa. <span class="evidenziato2">Est ipsa, deserunt pariatur qui odio in aliquam ipsam consequuntur ut rem ad quidem tempore numquam omnis ratione possimus ipsum?</span> Deserunt, modi eos, vel quod debitis similique harum dolorem quia sed nihil qui quis at perspiciatis sit rerum minima odit, itaque possimus eaque. Explicabo, repellendus quisquam! Voluptatem corporis nemo ut harum id distinctio ratione porro quod delectus ipsam, neque ea officia quia ex similique amet, illum totam dolorem. Laudantium sequi expedita dolorem iusto! Porro velit fugiat laborum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus harum officiis ipsum repellendus. Labore incidunt amet minima non. Optio iste reiciendis recusandae ipsa. <span class="evidenziato">Est ipsa, deserunt pariatur qui odio in aliquam ipsam consequuntur ut rem ad quidem tempore numquam omnis ratione possimus ipsum?</span> Deserunt, modi eos, vel quod debitis similique harum dolorem quia sed nihil qui quis at perspiciatis sit rerum minima odit, itaque possimus eaque. Explicabo, repellendus quisquam! Voluptatem corporis nemo ut harum id distinctio ratione porro quod delectus ipsam, neque ea officia quia ex similique amet, illum totam dolorem. Laudantium sequi expedita dolorem iusto! Porro velit fugiat laborum.</p>
         
-        <ul class="testo2">
+        <ul class="testo1">
           <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, quibusdam!</li>
           <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime quam ex id facilis ab aliquid?</li>
           <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, corrupti?</li>
@@ -54,9 +66,9 @@
       <section>
         <table class="tabella">
           <tr class="riga">
-            <td>Lorem, ipsum dolor</td>
-            <td>Lorem, ipsum dolor</td>
-            <td class="ultima">Lorem, ipsum dolor</td>
+            <th>Lorem, ipsum dolor</th>
+            <th>Lorem, ipsum dolor</th>
+            <th class="ultima-colonna">Lorem, ipsum dolor</th>
           </tr>
           <tr class="riga1">
             <td>Lorem, ipsum dolor</th>
@@ -78,21 +90,14 @@
 
       <!-- TESTO 2 -->
       <section class="testo">
-        <p class="testo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus harum officiis ipsum repellendus. Labore incidunt amet minima non. Optio iste reiciendis recusandae ipsa. <span class="evidenziato2">Est ipsa, deserunt pariatur qui odio in aliquam ipsam consequuntur ut rem ad quidem tempore numquam omnis ratione possimus ipsum?</span> Deserunt, modi eos, vel quod debitis similique harum dolorem quia sed nihil qui quis at perspiciatis sit rerum minima odit, itaque possimus eaque. Explicabo, repellendus quisquam! Voluptatem corporis nemo ut harum id distinctio ratione porro quod delectus ipsam, neque ea officia quia ex similique amet, illum totam dolorem. Laudantium sequi expedita dolorem iusto! Porro velit fugiat laborum.</p>      
+        <p class="testo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus harum officiis ipsum repellendus. Labore incidunt amet minima non. Optio iste reiciendis recusandae ipsa. <span class="evidenziato">Est ipsa, deserunt pariatur qui odio in aliquam ipsam consequuntur ut rem ad quidem tempore numquam omnis ratione possimus ipsum?</span> Deserunt, modi eos, vel quod debitis similique harum dolorem quia sed nihil qui quis at perspiciatis sit rerum minima odit, itaque possimus eaque. Explicabo, repellendus quisquam! Voluptatem corporis nemo ut harum id distinctio ratione porro quod delectus ipsam, neque ea officia quia ex similique amet, illum totam dolorem. Laudantium sequi expedita dolorem iusto! Porro velit fugiat laborum.</p>      
     </main>
 
+    <!-- FOOTER -->
     <footer>
-      <p class="autore">Potrebbero interessarti</p>
-
-      <div class="immagine-monitor">
-       <img class="immagine-footer" src="./img/monitor.jpg" alt="monitor">
-       <div class="testo-immagine-footer">Lorem ipsum dolor</div>
-      </div>
-
-      <div class="immagine-grafico">
-        <img class="immagine-footer" src="./img/graph.jpg" alt="grafico">
-        <div class="testo-immagine-footer">Lorem ipsum dolor</div>
-      </div>
+      <h2 class="autore">Potrebbero interessarti</h2>
+      <div class="immagine-footer" id="immagine-monitor">Lorem ipsum dolor</div>
+      <div class="immagine-footer" id="immagine-grafico">Lorem ipsum dolor</div>
     </footer>
   </div>
 </body>

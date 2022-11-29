@@ -1,28 +1,39 @@
+/* Generics */
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Times New Roman', Times, serif
 }
 
-.contenitore {
-
-}
+/* Header */
 
 header {
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png);
-  text-align: left;
-  height: 170px;
+  background-size: 850x;
+  height: 80px;
+  padding-top: 90px;
+  padding-bottom: 20px;
 }
 
-.logo {
-  margin-top: 90px;
+.contenitore {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+#logo {
   width: 300px;
 }
 
+/* Main */
+
 main {
   width: 1050px;
+  margin-left: 5px;
 }
+
+/* Titolo, autore e data */
 
 .titoli {
   font-family: 'Playfair Display', serif;;
@@ -31,86 +42,101 @@ main {
 h1 {
   font-size: 40px;
   max-width: 1000px;
-  margin-left: 5px;
 }
 
 .autore {
  color: #8E8E8E;
  font-weight: bold;
  font-size: 20px;
- margin-left: 5px;
-
+ font-style: normal;
 }
+
+.testo-colorato {
+  color: #24AAE5;
+  text-decoration: none;
+}
+
 
 .data {
   color: #8E8E8E;
   font-size: 14px;
-  margin-left: 5px;
   font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
 }
 
-.evidenziato {
-  color: #24AAE5;
-}
+/* Immagini e legenda */
 
 .immagini {
   margin-top: 20px;
-  margin-left: 5px;
 }
 
 .descrizione-foto {
   font-size: 12px;
-  margin-left: 5px;
 }
+
+/* Testi */
 
 .testo {
   margin-top: 15px;
-  margin-left: 5px;
 }
 
-.evidenziato2 {
+.evidenziato {
   background-color: yellow;
 }
 
-.testo2{
+.testo1{
   margin-top: 20px;
   margin-left: 15px;
 }
 
-.tabella{
+/* Tabella */
+
+.tabella {
   width: 1050px;
   border-collapse: collapse;
-  margin-left: 5px;
   margin-top: 15px;
 }
 
-.ultima{
+.ultima-colonna {
   width: 50%;
 }
 
 .riga {
   background-color: #20A9E5;
   color: white;
+  text-align: left;
+  font-style: normal;
 }
 
 .riga1 {
   background-color: #B1E5F2 ;
 }
 
-footer{
+/* Footer */
+
+footer {
   margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 20px;
 }
 
 .immagine-footer {
-  width: 200px;
-  margin-top: 10px;
-  margin-left: 5px;
+  height: 200px;
+  width: 240px;
+  margin-top: 15px;
+
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  padding-top: 12px;
+  padding-left: 12px;
+  background-position: center;
 }
 
-.testo-immagine-footer{
-  position: relative;
-  bottom: 130px;
-  left: 15px;
-  color: white;
-  font-weight: bold;
+#immagine-monitor {
+  background-image: url(../img/monitor.jpg);
+}
+
+#immagine-grafico {
+  background-image: url(../img/graph.jpg);
 }
